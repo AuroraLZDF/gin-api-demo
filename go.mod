@@ -9,6 +9,6 @@ require (
 	github.com/go-sql-driver/mysql v1.4.1
 	github.com/jinzhu/gorm v1.9.8
 	github.com/leodido/go-urn v1.1.0 // indirect
-	golang.org/x/tools v0.0.0-20190613204242-ed0dc450797f
+	golang.org/x/tools v0.0.0-20190613204242-ed0dc450797f // indirect
 	gopkg.in/go-playground/validator.v9 v9.29.0
 )
