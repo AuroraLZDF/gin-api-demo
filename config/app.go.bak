@@ -1,0 +1,9 @@
+package config
+
+import . "auroraLZDF/member_api/router"
+
+func init()  {
+	SetConfig()
+	SetDb()
+	InitRouter()
+}
