@@ -1,8 +1,8 @@
 package Models
 
 import (
-	"auroraLZDF/member_api/utils"
-	"auroraLZDF/member_api/config"
+	"github.com/auroraLZDF/gin-api-demo/utils"
+	"github.com/auroraLZDF/gin-api-demo/config"
 	"log"
 	"strings"
 )

@@ -3,13 +3,13 @@ package router
 import (
 	"net/http"
 	"github.com/gin-gonic/gin"
-	"auroraLZDF/member_api/app/Controllers/store"
+	"github.com/auroraLZDF/gin-api-demo/app/Controllers/store"
 	"os"
 	"io"
-	"auroraLZDF/member_api/app/Controllers/goods"
-	"auroraLZDF/member_api/app/Controllers/moldata"
-	"auroraLZDF/member_api/app/Controllers/purchase"
-	"auroraLZDF/member_api/app/Controllers/supply"
+	"github.com/auroraLZDF/gin-api-demo/app/Controllers/goods"
+	"github.com/auroraLZDF/gin-api-demo/app/Controllers/moldata"
+	"github.com/auroraLZDF/gin-api-demo/app/Controllers/purchase"
+	"github.com/auroraLZDF/gin-api-demo/app/Controllers/supply"
 )
 
 func InitRouter() *gin.Engine {

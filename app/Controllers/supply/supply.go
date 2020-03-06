@@ -1,10 +1,10 @@
 package supply
 
 import (
-	"auroraLZDF/member_api/app/Models"
+	"github.com/auroraLZDF/gin-api-demo/app/Models"
 	"github.com/gin-gonic/gin"
-	"auroraLZDF/member_api/utils"
-	. "auroraLZDF/member_api/app/Controllers"
+	"github.com/auroraLZDF/gin-api-demo/utils"
+	. "github.com/auroraLZDF/gin-api-demo/app/Controllers"
 )
 
 var model Models.Supply

@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
-	"auroraLZDF/member_api/utils"
+	"github.com/auroraLZDF/gin-api-demo/utils"
 	"log"
 	"fmt"
 )

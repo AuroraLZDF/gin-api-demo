@@ -1,7 +1,7 @@
 package main
 
-import "auroraLZDF/member_api/config"
-import "auroraLZDF/member_api/router"
+import "github.com/auroraLZDF/gin-api-demo/config"
+import "github.com/auroraLZDF/gin-api-demo/router"
 
 func init()  {
 	config.SetConfig()

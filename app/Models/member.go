@@ -1,10 +1,9 @@
 package Models
 
 import (
-	//"auroraLZDF/member_api/config"
-	time "auroraLZDF/member_api/utils"
+	time "github.com/auroraLZDF/gin-api-demo/utils"
 	"log"
-	"auroraLZDF/member_api/config"
+	"github.com/auroraLZDF/gin-api-demo/config"
 )
 
 type Member struct {

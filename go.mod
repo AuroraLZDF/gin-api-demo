@@ -1,4 +1,4 @@
-module auroraLZDF/member_api
+module auroraLZDF/gin-api-demo
 
 go 1.12
 

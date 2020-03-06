@@ -1,10 +1,10 @@
 package Controllers
 
 import (
-	. "auroraLZDF/member_api/app/Models"
-	. "auroraLZDF/member_api/config"
-	"auroraLZDF/member_api/utils/Requests"
-	"auroraLZDF/member_api/utils"
+	. "github.com/auroraLZDF/gin-api-demo/app/Models"
+	. "github.com/auroraLZDF/gin-api-demo/config"
+	"github.com/auroraLZDF/gin-api-demo/utils/Requests"
+	"github.com/auroraLZDF/gin-api-demo/utils"
 	"log"
 	"strings"
 	"encoding/json"

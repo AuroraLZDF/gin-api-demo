@@ -2,9 +2,9 @@ package store
 
 import (
 	"github.com/gin-gonic/gin"
-	. "auroraLZDF/member_api/app/Controllers"
-	"auroraLZDF/member_api/utils"
-	"auroraLZDF/member_api/app/Models"
+	. "github.com/auroraLZDF/gin-api-demo/app/Controllers"
+	"github.com/auroraLZDF/gin-api-demo/utils"
+	"github.com/auroraLZDF/gin-api-demo/app/Models"
 )
 
 var model Models.Store
