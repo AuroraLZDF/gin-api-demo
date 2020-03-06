@@ -1,11 +1,10 @@
 package config
 
 import (
-	"fmt"
-	"io/ioutil"
 	"encoding/json"
-	"log"
 	"github.com/auroraLZDF/gin-api-demo/utils"
+	"io/ioutil"
+	"log"
 )
 
 /*const (
@@ -38,7 +37,6 @@ var Config config
 
 func SetConfig() {
 	path := utils.AppPath() + ".env.json"
-	fmt.Println("path: ",path)
 	file, err := ioutil.ReadFile(path)
 	if err != nil {
 		panic("读取配置文件失败")

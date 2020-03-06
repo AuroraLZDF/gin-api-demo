@@ -13,15 +13,12 @@ import (
 )
 
 func InitRouter() *gin.Engine {
-	// 禁用控制台颜色，当你将日志写入到文件的时候，你不需要控制台颜色。
-	gin.DisableConsoleColor()
-
 	// 写入日志的文件
 	f, _ := os.Create("gin.log")
 	gin.DefaultWriter = io.MultiWriter(f)
 
-	//
-	router := gin.Default()
+	router := gin.New()
+	router.Use(gin.Logger(), gin.Recovery())
 
 	router.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{

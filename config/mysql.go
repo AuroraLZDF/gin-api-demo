@@ -12,7 +12,6 @@ var Db *gorm.DB
 //初始化方法
 func SetDb() {
 	var err error
-	//var dbConfig = DbConfig()
 
 	format := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8&parseTime=True&loc=Local&timeout=10ms",
 		Config.DbUser, Config.DbPass, Config.DbHost, Config.DbPort, Config.DbName) + "&loc=Asia%2FShanghai"
